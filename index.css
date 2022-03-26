@@ -21,6 +21,9 @@ a:focus {
 main {
   background: linear-gradient(to top, #ece9e6, #ffffff); 
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 button,
