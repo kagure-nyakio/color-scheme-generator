@@ -1,0 +1,83 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  margin: 0;
+}
+
+a {
+  color:rgba(131, 127, 127, 0.95);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color:rgba(233, 23, 23, 0.3)
+}
+
+main {
+  background: linear-gradient(to top, #ece9e6, #ffffff); 
+  text-align: center;
+}
+
+button,
+select {
+  border: 1.5px solid rgba(131, 127, 127, 0.75);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+  background-color: transparent;
+  width: 20%;
+  min-height: 45px;
+  border: none;
+}
+
+button {
+  width: 30%;
+}
+
+button:hover,
+button:focus {
+  background-color: #1425BA;
+  color: #fff;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.scheme-gen-form {
+  font-weight: 500;
+  width: 95%;
+  max-width: 650px;
+  margin: 1em auto;
+  padding: 1em 0;
+  border: rgba(131, 127, 127, 0.3) dashed 1px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color-scheme {
+  display: flex;
+}
+
+.pallete {
+  flex-grow: 1;
+}
+
+.pallete-color {
+  min-height: 80vh;
+}
+
+.pallete-color__text {
+  padding: 1em 0;
+}
+
